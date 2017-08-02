@@ -11,8 +11,8 @@
         rec = new SRecorder(stream);
     };
 
-    //var socket = io.connect('https://localhost:3000');
-    var socket = io.connect('https://10.0.72.55:3000');
+    var socket = io.connect('https://localhost:3000');
+
 
     var SRecorder = function(stream) {
         config = {
